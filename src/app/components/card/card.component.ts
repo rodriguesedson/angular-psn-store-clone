@@ -8,6 +8,8 @@ import { Component, Input, OnInit } from '@angular/core';
 export class CardComponent implements OnInit {
 
 	@Input()
+	gameLink:string = ""
+	@Input()
 	gameCover:string = ""
 	@Input()
 	gameLabel:string=""
